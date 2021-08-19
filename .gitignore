@@ -2,7 +2,6 @@ my-env
 
 
 #django
-/frontend/node_modules
 
 /backend/*.log
 /backend/*.pot
@@ -16,11 +15,6 @@ my-env
 /backend/static/images
 
 
-
-#react
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
 /frontend/node_modules
 /frontend/.pnp
 /frontend.pnp.js
@@ -30,14 +24,3 @@ my-env
 
 # production
 /frontend/build/
-
-# misc
-/frontend/.DS_Store
-/frontend/.env.local
-/frontend/.env.development.local
-/frontend/.env.test.local
-/frontend.env.production.local
-
-npm-debug.log*
-/frontendyarn-debug.log*
-/frontendyarn-error.log*
